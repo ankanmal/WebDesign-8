@@ -1,0 +1,71 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  padding: 14px 15px;
+}
+.signin-btn {
+  padding: 0.1rem 0.6rem;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+body {
+  font-family: Roboto;
+  background-image: url("../images/backcover.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 55rem;
+  padding: 0px 20px;
+}
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+}
+.left-section {
+  margin-top: 8rem;
+}
+.left-section h1 {
+  font-size: 4rem;
+  color: #394291;
+}
+.left-section h4 {
+  width: 20rem;
+  color: #8c8ea7;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.learn-more-btn {
+  font-size: 1rem;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.imgs-div {
+  position: relative;
+}
+.vector-img {
+  position: absolute;
+  top: 29rem;
+  left: -18rem;
+}
+.vector-dot {
+  position: absolute;
+  top: 24rem;
+  left: -14rem;
+}
+img[alt="intro-img"] {
+  height: 40rem;
+}

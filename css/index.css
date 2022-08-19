@@ -28,6 +28,7 @@ body {
 .intro-section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .left-section {
   margin-top: 8rem;
@@ -68,4 +69,14 @@ body {
 }
 img[alt="intro-img"] {
   height: 40rem;
+}
+
+@media screen and (max-width: 400px) {
+  img[alt="intro-img"] {
+    height: 30rem;
+  }
+  .nav-items {
+    display: flex;
+    display: none;
+  }
 }
